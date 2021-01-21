@@ -1,0 +1,27 @@
+.items {
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    scroll-snap-align: start;
+}
+
+.items__text {
+    text-align: center;
+    margin-top: calc(16vh + 20px);
+}
+
+.items__text > h2 {
+    font-size: 34px;
+    padding: 4px 0;
+    color: #393c41;
+    font-weight: 700;
+}
+
+.items__text > p {
+    font-size: 14px;
+    color: #5c5e62;
+}
