@@ -1,10 +1,10 @@
 import React from 'react'
 import './Buttons.css'
 
-function Buttons() {
+function Buttons({ imp, text, link, last }) {
     return (
-        <div>
-            
+        <div className={`button ${imp === 'secondary' ? 'button__white' : ''} ${last === 'last' ? 'hello' : ''}`}>
+            <a href={link}>{ text }</a>
         </div>
     )
 }

@@ -1,0 +1,14 @@
+.footer {
+    font-size: 12px;
+    margin-top: 25px;
+}
+
+.footer > ul {
+    display: block;
+}
+
+.footer > ul > li {
+    display: inline;
+    padding: 0 10px;
+    cursor: pointer;
+}

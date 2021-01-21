@@ -8,6 +8,7 @@ import ModelX from './assets/Desktop-ModelX.jpeg'
 import ModelY from './assets/Desktop-ModelY.jpeg'
 import SolarRoof from './assets/Desktop-SolarRoof.jpeg'
 import Accessories from './assets/Desktop-Accessories.jpg'
+import Footer from './Components/Footer.js'
 
 function App() {
   return (
@@ -19,10 +20,10 @@ function App() {
         desc="Money-back guarantee"
         desc-link=""
         backgroundImg={ SolarPanels }
-        leftBtnLeft="ORDER NOW" 
-        leftBtnLinks=""
-        rightBtnLeft="Learn More"
-        rightBtnLinks=""
+        leftBtnText="ORDER NOW" 
+        leftBtnLink=""
+        rightBtnText="LEARN MORE"
+        rightBtnLink=""
         twoButtons="true"
         first
       />
@@ -32,71 +33,75 @@ function App() {
         desc="Starting at 69,420"
         desc-link=""
         backgroundImg={ ModelS }
-        leftBtnLeft="CUSTOMER ORDER" 
+        leftBtnText="CUSTOMER ORDER" 
         leftBtnLinks=""
-        rightBtnLeft="EXISTING INVENTORY"
-        rightBtnLinks="" twoButtons="true" />
+        rightBtnText="EXISTING INVENTORY"
+        rightBtnLinks="" 
+        twoButtons="true" 
+        />
      
       <Items
         title="Model 3"
         desc="Order Online for "
         descLink="Touchless Delivery"
         backgroundImg={ Model3 }
-        leftBtnLeft="CUSTOM ORDER" 
+        leftBtnText="CUSTOM ORDER" 
         leftBtnLinks=""
-        rightBtnLeft="EXISTING INVENTORY"
+        rightBtnText="EXISTING INVENTORY"
         rightBtnLinks=""
         twoButtons="true"
       />
       
       <Items
         title="Model X"
-        desc="Money-back guarantee"
-        desc-link=""
+        desc="Order Online for "
+        descLink="Touchless Delivery"
         backgroundImg={ ModelX }
-        leftBtnLeft="ORDER NOW" 
+        leftBtnText="ORDER NOW" 
         leftBtnLinks=""
-        rightBtnLeft="Learn More"
+        rightBtnText="EXISTING INVENTORY"
         rightBtnLinks=""
         twoButtons="true"
       />
 
       <Items
         title="Model Y"
-        desc="Money-back guarantee"
-        desc-link=""
+        desc="Order Online for "
+        descLink="Touchless Delivery"
         backgroundImg={ ModelY }
-        leftBtnLeft="ORDER NOW" 
+        leftBtnText="ORDER NOW" 
         leftBtnLinks=""
-        rightBtnLeft="Learn More"
+        rightBtnText="LEARN MORE"
         rightBtnLinks=""
         twoButtons="true"
       />
 
       <Items
         title="Solar for New Roofs"
-        desc="Money-back guarantee"
-        desc-link=""
+        desc="Solar Roof Costs Less Than a New Roof Plus Solar Panels"
+        descLink=""
         backgroundImg={ SolarRoof }
-        leftBtnLeft="ORDER NOW" 
+        leftBtnText="ORDER NOW" 
         leftBtnLinks=""
-        rightBtnLeft="Learn More"
+        rightBtnText="LEARN MORE"
         rightBtnLinks=""
         twoButtons="true"
       />
 
       <Items
         title="Accessories"
-        desc="Money-back guarantee"
+        desc=""
         desc-link=""
         backgroundImg={ Accessories }
-        leftBtnLeft="ORDER NOW" 
+        leftBtnText="SHOP NOW" 
         leftBtnLinks=""
-        rightBtnLeft="Learn More"
+        rightBtnText=""
         rightBtnLinks=""
-        twoButtons="true"
+        twoButtons=""
+        last
       />
       </div>
+      
 </div>
   );
 }
